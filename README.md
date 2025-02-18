@@ -51,7 +51,7 @@ Gradient Descent iteratively updates a parameter \(x\) to minimize a function by
 #### **Code Implementation**
 - Defined a function for **Gradient Descent** update rule:  
   \[
-  x_{new} = x - /alpha /cdot df(x)
+  x_new = x - α * df(x)
   \]
 - Used different learning rates (**0.01, 0.05, 0.2**)  
 - Implemented a **stopping condition** when the absolute change in \( x \) is less than \( 1e-6 \)  
