@@ -30,6 +30,8 @@ For this project, I used the following tools and technologies:
 
 **Step 4: Visualizing Convergence Behavior**
 
+---
+
 ### **Step 1: Understanding Gradient Descent**
 **Objective:** Gain a theoretical understanding of Gradient Descent and its significance in optimization.
 
@@ -49,7 +51,7 @@ Gradient Descent iteratively updates a parameter \(x\) to minimize a function by
 #### **Code Implementation**
 - Defined a function for **Gradient Descent** update rule:  
   \[
-  x_{new} = x - \alpha \cdot df(x)
+  x_{new} = x - /alpha /cdot df(x)
   \]
 - Used different learning rates (**0.01, 0.05, 0.2**)  
 - Implemented a **stopping condition** when the absolute change in \( x \) is less than \( 1e-6 \)  
@@ -76,7 +78,7 @@ A smaller learning rate results in slower convergence, while a larger learning r
 #### **Insights**
 - **LR = 0.01** → Converges slowly but steadily  
 - **LR = 0.05** → Faster convergence but still takes 100 iterations  
-- **LR = 0.2** → **Fastest convergence (29 iterations)** 🚀  
+- **LR = 0.2** → **Fastest convergence (29 iterations)**
 
 ---
 
@@ -101,7 +103,8 @@ plt.show()
 ```
 
 ### Result
-![visualization of different learning rates affect the convergence speed](Output/Different_Learning_Rates.png)                                                      *A clear visualization of how different learning rates affect the convergence speed*
+![visualization of different learning rates affect the convergence speed](Output/Different_Learning_Rates.png)                                                    
+*A clear visualization of how different learning rates affect the convergence speed*
 
 - **Small α** → slow, stable descent
 - **Large α** → faster convergence, but potential overshooting
